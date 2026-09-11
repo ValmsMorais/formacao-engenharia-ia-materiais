@@ -1,0 +1,5 @@
+psycopg[binary,pool]
+SQLAlchemy
+alembic
+pytest
+python-dotenv

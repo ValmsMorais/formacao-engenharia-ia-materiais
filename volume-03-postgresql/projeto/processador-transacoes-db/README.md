@@ -8,6 +8,6 @@ Evolução do projeto cumulativo da Formação Engenharia de IA.
 4. Crie o database `engenharia_ia`.
 5. Aplique o schema/migrations.
 6. Execute a importação.
-7. Rode os testes.
+7. Rode os testes com `python -m pytest -q`.
 
 Nunca publique `.env`.

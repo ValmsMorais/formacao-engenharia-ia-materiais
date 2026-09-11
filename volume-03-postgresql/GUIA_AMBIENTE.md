@@ -9,6 +9,6 @@
 SELECT version();
 ```
 
-5. Para Python, crie `.venv` e instale as dependências do projeto.
+5. Para Python, crie `.venv` e instale `requirements.txt` desta pasta com `python -m pip install -r requirements.txt`.
 
 Nunca versione senha real no Git.

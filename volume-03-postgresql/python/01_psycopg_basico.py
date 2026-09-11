@@ -1,7 +1,7 @@
 import os
 import psycopg
 
-dsn = os.environ["DATABASE_URL"]
+dsn = os.environ["PSYCOPG_DSN"]
 
 with psycopg.connect(dsn) as conn:
     with conn.cursor() as cur:
