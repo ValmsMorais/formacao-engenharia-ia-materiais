@@ -1,0 +1,10 @@
+{
+  "arquivo_entrada": "dados/transacoes.csv",
+  "pasta_saida": "saida",
+  "valor_revisao": 5000.0,
+  "tipos_aceitos": [
+    "PIX",
+    "CARTAO",
+    "BOLETO"
+  ]
+}
