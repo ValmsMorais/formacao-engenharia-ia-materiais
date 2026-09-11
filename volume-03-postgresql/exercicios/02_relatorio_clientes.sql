@@ -1,0 +1,3 @@
+-- Produza por cliente:
+-- nome, quantidade de transações, valor total e última movimentação.
+-- Preserve também clientes sem transações.

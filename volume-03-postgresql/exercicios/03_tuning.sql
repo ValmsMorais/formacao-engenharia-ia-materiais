@@ -1,0 +1,5 @@
+-- 1. Rode EXPLAIN (ANALYZE, BUFFERS) em uma consulta por cliente_id e data.
+-- 2. Registre o plano.
+-- 3. Crie um índice coerente.
+-- 4. Rode novamente.
+-- 5. Explique a diferença usando evidências.

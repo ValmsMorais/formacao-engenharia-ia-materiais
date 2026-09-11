@@ -1,0 +1,4 @@
+-- 1. Liste clientes ativos por nome.
+-- 2. Liste as 3 maiores transações.
+-- 3. Some o valor por tipo.
+-- 4. Encontre transações acima de 200.
