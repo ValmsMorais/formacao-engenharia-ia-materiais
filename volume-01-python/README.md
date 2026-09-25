@@ -1,18 +1,24 @@
-# Volume 01 - Python para Engenharia de IA
+# Volume 01 — Python para Engenharia de IA
 
-Materiais praticos oficiais do Volume 01 da **Formacao Engenharia de IA**.
+Baixe o repositório pela opção Code > Download ZIP, extraia e abra volume-01-python no VS Code. A pasta deve conter diretamente dados, exemplos, exercicios, gabaritos, projeto e requirements.txt. Os programas das aulas usam esta pasta como diretório atual.
 
-## Estrutura
-- `dados/`: arquivos usados nos exemplos de CSV, JSON e pandas.
-- `exemplos/`: pequenos programas comentados.
-- `exercicios/`: atividades para o aluno completar.
-- `gabaritos/`: uma solucao possivel para cada atividade.
-- `projeto/`: estrutura inicial do Processador de Transacoes.
+## Preparação
+Leia GUIA_AMBIENTE.md e a seção 6.4 do PDF. Use uma .venv e instale:
+```bash
+python -m pip install -r requirements.txt
+```
+Dependências: pandas (tabelas) e pytest (testes). Módulos csv, json, logging e pathlib já acompanham Python.
 
-## Como usar
-Baixe esta pasta (ou o repositorio completo), abra-a no VS Code e execute os exemplos a partir da pasta `volume-01-python`.
+## Mapa das aulas
+- 5.2 CSV: `python exemplos/01_ler_csv.py`.
+- 5.3 JSON: `python exemplos/02_json.py`, que lê dados/configuracao.json.
+- 7.1 pandas: `python exemplos/03_pandas_basico.py`.
+- 7.2 agrupamento: `python exemplos/04_pandas_analise.py`.
+- 7.2 combinação: `python exemplos/05_merge_clientes.py`, usando dados/clientes.csv.
 
-> Os dados sao totalmente ficticios e foram criados exclusivamente para estudo.
+Depois de CSV, complete exercicios/01_total_transacoes.py. Depois de limpeza, complete exercicios/02_limpeza_pandas.py. Consulte os arquivos correspondentes em gabaritos somente após tentar.
 
-## Dependencias
-Instale com `py -m pip install -r requirements.txt` no Windows ou equivalente no seu sistema.
+## Projeto
+Na Parte 9, abra projeto/processador_transacoes como pasta do VS Code. Siga seu README e execute `python -m src.main`. A Sprint 1 usa a entrada limpa; a Sprint 2 troca para a entrada com erros. Os módulos e relatórios finais são exercícios, não arquivos faltantes.
+
+Todos os dados são fictícios.
